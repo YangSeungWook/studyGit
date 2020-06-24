@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* Font File */
+
+@font-face {
+    font-family:ng;
+    src: url('./font/NanumGothic.eot');
+   src: local('NanumGothic'), url('./font/NanumGothic.eot#iefix') format('embedded-opentype'), url('./font/NanumGothic.woff') format('woff'), url('./font/NanumGothic.ttf') format('truetype');
+}
+
+
+
+
+/* Font File 
+
+@font-face {
+    font-family:ngb;
+    src: url('./font/NanumGothicBold.eot');
+   src: local('NanumGothicBold'), url('./font/NanumGothicBold.eot#iefix') format('embedded-opentype'), url('./font/NanumGothicBold.woff') format('woff'), url('./font/NanumGothicBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:nge;
+    src: url('./font/NanumGothicExtraBold.eot');
+   src: local('NanumGothicExtraBold'), url('./font/NanumGothicExtraBold.eot#iefix') format('embedded-opentype'), url('./font/NanumGothicExtraBold.woff') format('woff'), url('./font/NanumGothicExtraBold.ttf') format('truetype');
+}
+
+*/
+
+
+
+
+/* Font Link 
+
+
+@font-face {
+  font-family: ng;
+  font-style: normal;
+  font-weight: 400;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.eot);
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.woff2) format('x-woff2'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: ngb;
+  font-style: normal;
+  font-weight: 700;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.eot);
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.woff2) format('x-woff2'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: nge;
+  font-style: normal;
+  font-weight: 400;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.eot);
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.woff2) format('x-woff2'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.ttf) format('truetype');
+}
+
+
+
+*/

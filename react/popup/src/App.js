@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect, useContext, createContext, useMemo } from 'react';
+import React, { useRef, useState, useEffect, useContext, createContext, useMemo, useCallback } from 'react';
 import Modal from './Modal';
 import Menu from './Menu';
 import './App.css';
@@ -22,6 +22,14 @@ const Box = () => {
   )
 }
 
+const Button = () => {
+  return (
+    <div>
+      <button>난 버튼</button>
+    </div>
+  )
+}
+
 const List = () => {
   return (
     <div>
@@ -36,7 +44,41 @@ const List = () => {
 
 
 
+
 const App = () => {
+  const kkk = ['치킨','순대','족발'];
+
+  const king = (e) => {
+    console.log(e)
+    if(e){
+      console.log('난 파워야');
+    }else{
+      console.log('난 킹이야');
+    }
+    let result = ['후후'];
+
+    return result;
+  }
+
+  const [wow, setWow ] = useState(false);
+  const [sok, setSok] = useMemo(()=>king(wow),[]);
+  //const [sok, setSok] = useState(king(wow));
+  const [aha, setAha] = useState(sok);
+
+  
+  let counter = 0;
+  setInterval(function(){
+    counter = counter + 1;
+    if(counter > 3){
+     //setWow(true);
+    }
+    console.log(counter);
+  },1000)
+
+
+
+
+  
 
 
   const [popModal, setPopModal] = useState('')
